@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-
+using System.Threading;
 using TMPro;
 
 using UnityEngine;
@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
         }
 
         _text.text = "Points: " + _points;
+
     }
 
     private void LateUpdate()
